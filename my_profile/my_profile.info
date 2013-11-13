@@ -1,8 +1,8 @@
 ; Project-specific installation profile
 
-name = PROJECTNAME
-distribution_name = PROJECTNAME
-description = DESCRIPTION
+name = Short name
+distribution_name = Short name
+description = Long name
 core = 7.x
 theme = bartik
 
@@ -52,17 +52,17 @@ dependencies[] = os_base
 ;
 users[admin][uid] = 1
 users[admin][name] = admin
-users[admin][mail] = admin@os_project.example.com
+users[admin][mail] = admin@my_profile.example.com
 users[admin][status] = 1
 users[admin][data][overlay] = 0
 
 ;
 ; Variables
 ;
-;variables[site_frontpage] = TODO
+variables[site_frontpage] = node/1
 ;variables[site_404] =
-variables[site_mail] = admin@os_project.dev
-variables[site_name] = PROJECTNAME
+variables[site_mail] = admin@my_profile.dev
+variables[site_name] = Short name
 variables[admin_theme] = seven
 variables[node_admin_theme] = 1
 variables[site_default_country] = US
@@ -74,7 +74,7 @@ variables[dblog_row_limit] = 1000000
 variables[os_base_remove_core_image_styles] = 1
 
 ; Up image quality.
-variables[image_jpeg_quality] = 100
+variables[image_jpeg_quality] = 95
 
 ; If needed, override default user_register setting
 ; (which is 2). Possible values:
@@ -91,15 +91,15 @@ variables[pathauto_node_pattern] = ''
 ; Nodes
 ;
 ;; About page.
-;nodes[about][type] = page
-;nodes[about][title] = About
-;nodes[about][body][und][0][value] = PLACEHOLDER
-;nodes[about][body][und][0][format] = full_html
-;nodes[about][uid] = 1
-;nodes[about][language] = und
-;nodes[about][menu][enabled] = 1
-;nodes[about][menu][link_title] = About
-;nodes[about][menu][menu_name] = main-menu
-;nodes[about][menu][weight] = 0
-;nodes[about][path][alias] = about
-;nodes[about][path][pathauto] = 0
+nodes[about][type] = page
+nodes[about][title] = About
+nodes[about][body][und][0][value] = PLACEHOLDER
+nodes[about][body][und][0][format] = full_html
+nodes[about][uid] = 1
+nodes[about][language] = und
+nodes[about][menu][enabled] = 1
+nodes[about][menu][link_title] = About
+nodes[about][menu][menu_name] = main-menu
+nodes[about][menu][weight] = 0
+nodes[about][path][alias] = about
+nodes[about][path][pathauto] = 0

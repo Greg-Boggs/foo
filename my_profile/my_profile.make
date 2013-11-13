@@ -22,7 +22,7 @@ includes[base] = "base.make"
 includes[images] = "images.make"
 
 ; Uncomment this to enable demo content. Do not use on production.
-;includes[demo] = "demo.make"
+includes[demo] = "demo.make"
 
 ; Uncomment to use Panels.
 ;includes[panels] = "panels.make"
@@ -35,8 +35,6 @@ includes[images] = "images.make"
 ; Follow
 projects[follow][version] = "2.0-alpha1"
 
-; Mollom
-projects[mollom][version] = "2.7"
 
 ; Libraries.
 projects[libraries][version] = "2.1"
@@ -51,4 +49,6 @@ libraries[profiler][download][revision] = "4c131d2"
 libraries[profiler][patch][] = "http://drupal.org/files/1853290-support-term-parent-2.patch"
 ; http://drupal.org/node/1921880#comment-7086568: Add support for heirarchical menus on node creation.
 libraries[profiler][patch][] = "http://drupal.org/files/profiler_heirarchical_node_menu-1921880-1.patch"
+
+
 

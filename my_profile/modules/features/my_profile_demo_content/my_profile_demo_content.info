@@ -1,6 +1,6 @@
-name = PROJECTNAME Demo Content
+name = Short name Demo Content
 core = 7.x
-package = PROJECTNAME
+package = Short name
 dependencies[] = ctools
 dependencies[] = deploy
 dependencies[] = entity

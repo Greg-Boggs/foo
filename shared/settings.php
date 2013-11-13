@@ -264,7 +264,7 @@ $drupal_hash_salt = '';
  * It is not allowed to have a trailing slash; Drupal will add it
  * for you.
  */
-# $base_url = 'http://www.example.com';  // NO trailing slash!
+ $base_url = 'http://local.foo.com';  // NO trailing slash!
 
 /**
  * PHP settings:
@@ -554,3 +554,6 @@ $conf['404_fast_html'] = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
 
 // Require a local settings file.
 require dirname(__FILE__) . '/settings.local.php';
+
+$conf['install_profile'] = 'my_profile';
+

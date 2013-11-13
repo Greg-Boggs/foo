@@ -11,9 +11,6 @@ default:
       goutte: ~
       selenium2: ~
     Drupal\DrupalExtension\Extension:
-      api_driver: drupal
       blackbox: ~
-      drupal:
-
-imports:
-  - behat.local.yml
+      drush:
+        root: /var/www/turnip/foo_project/drupal
